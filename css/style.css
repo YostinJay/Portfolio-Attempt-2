@@ -1,0 +1,178 @@
+body {
+  margin: 0 auto;
+  padding: 0 auto;
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 30px;
+  color: #707070;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+span {
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: #707070;
+}
+
+.container {
+  padding: 70px 50px;
+}
+
+.navigation {
+  padding: 20px;
+  position: sticky;
+}
+
+.nav_toggle {
+  float: right;
+  padding: 0 20px;
+}
+
+.intro_title,
+.intro_tagline {
+  font-weight: 300;
+  font-size: 30px;
+}
+
+.intro_title {
+  padding-bottom: 90px;
+}
+
+hr {
+  border: solid 2px #85ea8f;
+}
+
+button {
+  padding: 13px 36px;
+  border: none;
+  border-radius: 10px;
+  background-color: #85ea8f;
+  font-size: 20px;
+  color: #707070;
+}
+
+button:hover {
+  background-color: #55d361;
+  cursor: pointer;
+}
+
+.contact {
+  padding: 60px 0 0 0;
+}
+
+.contact_title {
+  font-size: 23px;
+}
+
+.contact_desc,
+a {
+  padding: 20px 0 0 0;
+  font-weight: 300;
+  font-size: 20px;
+}
+
+.contact_link {
+  border-bottom: solid 3px #85ea8f;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 20px;
+  color: #85ea8f;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.project_container {
+  padding: 20px;
+}
+
+.project_title,
+.project_link {
+  font-weight: 600;
+  font-size: 20px;
+  color: #707070;
+  padding: 20px 0;
+}
+
+.project_title:hover {
+  color: #4b4b4b;
+}
+
+.project_desc {
+  font-size: 20px;
+}
+
+.about_desc {
+  font-size: 20px;
+}
+
+.credits {
+  padding: 50px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.social_icons {
+  padding: 20px;
+  display: block;
+  text-align: center;
+  color: #707070;
+}
+
+.icon {
+  padding: 0 4px;
+}
+
+@media only screen and (min-width: 1200px) {
+  body {
+    font-size: 50px;
+  }
+
+  .container {
+    padding: 120px 100px;
+  }
+
+  .intro_title {
+    font-size: 50px;
+  }
+
+  .intro_tagline {
+    width: 100%;
+    max-width: 650px;
+    font-size: 50px;
+  }
+
+  .contact_title {
+    font-size: 30px;
+  }
+
+  .contact_desc,
+  .contact_link {
+    font-size: 25px;
+    color: #707070;
+  }
+
+  .contact_link:hover {
+    background-color: #85ea8f;
+    color: #4b4b4b;
+    padding: 0;
+  }
+
+  .title {
+    font-size: 30px;
+  }
+}
